@@ -1,6 +1,7 @@
 ## Optimal network size for most robust Turing patterns 
 
 ### Repository content
+### Code
 - Distribution of Jacobian matrix elements
 - Dispersion relation
 - Normality assumption
