@@ -14,6 +14,4 @@
 - Figures 1-8
   
 ---
-[![My Skills]
-(https://skillicons.dev/icons?i=py)]
-(https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py)](https://skillicons.dev)
