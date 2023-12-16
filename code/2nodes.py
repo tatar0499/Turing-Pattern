@@ -51,6 +51,8 @@ def worker_func(num_matrices: int, task_tracker, lock):
 
 def tr_analysis(m: int, order: int, task_tracker, lock):
     if order == 2:
+     #_________________________________________________________________________________________________________________________________
+     # Parameter Sampling
         sampler = qmc.LatinHypercube(d=5)
         lhs_samples = sampler.random(n=m)
         lhs_samples[:, :3] = lhs_samples[:, :3] * 99.9 + 0.1    
@@ -121,7 +123,8 @@ def tr_analysis(m: int, order: int, task_tracker, lock):
             elif is_stable == True:
                 stable.append(J)
 
-
+#____________________________________________________________________________________________________________________________________
+# LSA
             k = np.arange(0, 101, 0.2) 
             D = np.diag([1,100])
 
